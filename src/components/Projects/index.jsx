@@ -92,11 +92,6 @@ class Projects extends Component {
                       {proj.description}
                     </Card.Text>
                   </Card.Body>
-
-                  {/* <Card.Img
-                    variant="top"
-                    src={require(`assets/logo/logo-1.png`)}
-                  /> */}
                 </Card>
               );
             })}
