@@ -284,7 +284,7 @@ const projectcards = {
           color: "#051c61",
         },
       ],
-      link: "/",
+      link: "https://personal-portfolio-beta-two-48.vercel.app/",
       code: "https://github.com/easyAppx/personal-portfolio",
       linkcolor: "white",
     },
