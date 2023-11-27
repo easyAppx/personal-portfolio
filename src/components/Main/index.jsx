@@ -6,13 +6,12 @@ import BannerImg from './BannerImg'
 import { greeting, competitiveSites } from 'assets/portfolio'
 import CompetitiveSites from 'components/competitiveSites/CompetitiveSites'
 import Typewriter from "typewriter-effect";
-import { Fade } from "react-reveal";
 
 const Main = () => {
   const theme = darkTheme;
   return (
     <div>
-      <Fade bottom duration={2000} distance="40px">
+      <div className="fade-in">
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
           <div className="greeting-text-div">
@@ -83,7 +82,7 @@ const Main = () => {
           </div>
         </div>
       </div>
-    </Fade>
+    </div>
     </div>
   )
 }

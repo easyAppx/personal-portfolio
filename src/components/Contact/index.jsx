@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import SocialMedia from "components/socialMedia/SocialMedia";
 import Button from "components/button/Button";
 import AddressImg from "./AddressImg";
-import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { contactPageData } from "assets/portfolio";
 import { darkTheme } from "theme";
@@ -17,7 +16,7 @@ class Contact extends Component {
     return (
       <div className="contact-main">
         <div className="basic-contact">
-          <Fade bottom duration={1000} distance="40px">
+          <div className="fade-in">
             <div className="address-heading-div">
               <div className="contact-heading-img-div">
                 <AddressImg theme={theme} />
@@ -70,7 +69,7 @@ class Contact extends Component {
                 </p>
               </div>
             </div>
-          </Fade>
+          </div>
         </div>
       </div>
     );

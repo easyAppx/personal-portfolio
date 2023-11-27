@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Header.css';
 import { NavLink, Link } from 'react-router-dom';
-import { Fade } from 'react-reveal';
 import { settings } from 'assets/portfolio';
 import { darkTheme } from "theme"
 import SeoHeader from '../seoHeader/SeoHeader';
@@ -52,7 +51,7 @@ const Header = () => {
   }, []);
   
   return (
-    <Fade top duration={1000} delay={500} distance="20px">
+    <div className="fade-in">
       <SeoHeader />
       <header 
         className={`main-header z-50 top-0 transition-all duration-1000 ease-in-out ${
@@ -128,7 +127,7 @@ const Header = () => {
           </ul>
         </div>
       </header>
-    </Fade>
+    </div>
   );
 };
 

@@ -2,14 +2,13 @@ import React from "react";
 import AboutImg from "./AboutImg";
 import "./About.css";
 import { Bio } from "assets/portfolio"
-import { Fade } from "react-reveal";
 import { darkTheme } from "theme";
 
 const About = () => {
   const theme = darkTheme;
   return (
   <div className="main pb-[12rem]">
-      <Fade bottom duration={2000} distance="40px">
+      <div className="fade-in">
         <div className="heading-div">
           <div className="heading-img-div lg:mt-[5rem] sm:mt-5">
             <AboutImg theme={theme} />
@@ -26,7 +25,7 @@ const About = () => {
             </h3>
           </div>
         </div>
-      </Fade>
+      </div>
     </div>
   );
 }

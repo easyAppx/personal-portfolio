@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Services.css";
 import { darkTheme } from "theme"
-import { Fade } from "react-reveal";
 import FullStackImg from "./web/FullStackImg";
 import DesignImg from "./ui/DesignImg";
 import { skills } from 'assets/portfolio'
@@ -21,33 +20,33 @@ const Services = () => {
   return (
     <div className="main" id="skills">
       <div className="skills-header-div">
-        <Fade bottom duration={2000} distance="20px">
+        <div className="fade-down">
           <h1 className="skills-header" style={{ color: theme.text }}>
             Solutions
           </h1>
-        </Fade>
+        </div>
       </div>
       <div className='mt-14'>
         {skills.data.map((skill, index) => {
           return (
             <div key={index} className="skills-main-div">
-              <Fade left duration={2000}>
+              <div className="fade-in">
                 <div className="skills-image-div">
                   <GetSkillSvg fileName={skill.fileName}/>
                 </div>
-              </Fade>
+              </div>
 
               <div className="skills-text-div lg:pb-[5rem] pb-0">
-                <Fade right duration={1000}>
+                <div className="fade-in">
                   <h3
                     className="skills-heading text-center lg:text-right lg:whitespace-pre whitespace-normal" 
                     style={{ color: theme.textD }}
                   >
                     {skill.title}
                   </h3>
-                </Fade>
+                </div>
 
-                <Fade right duration={2000}>
+                <div className="fade-in">
                   <div>
                     {skill.skills.map((skillSentence, index) => {
                       return (
@@ -62,7 +61,7 @@ const Services = () => {
                       );
                     })}
                   </div>
-                </Fade>
+                </div>
               </div>
             </div>
           );
@@ -72,25 +71,25 @@ const Services = () => {
         {skills.data.map((skill, index) => {
           return (
             <div key={index} className="skills-main-div">
-              <Fade right duration={1500}>
+              <div className="fade-in">
                 <h3
                   className="skills-heading text-right"
                   style={{ color: theme.textD }}
                 >
                   {skill.skillIntro}
                 </h3>
-              </Fade>
+              </div>
             </div>
           );
         })}
         {skills.data.map((skill, index) => {
           return (
             <div key={index} className="skills-main-div -mt-[22px]">
-              <Fade left duration={1500}>
+              <div className="fade-in">
                 <div className="text-right">
                   <SoftwareSkill logos={skill.softwareSkills} />
                 </div>
-              </Fade>
+              </div>
             </div>
           );
         })}

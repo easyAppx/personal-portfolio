@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Badge from "react-bootstrap/Badge";
-import { Fade } from "react-reveal";
 import { projectsHeader, projectcards } from "assets/portfolio.js";
 import { CardDeck, Card } from "react-bootstrap";
 import "./Projects.css";
@@ -13,7 +12,7 @@ class Projects extends Component {
     return (
       <div className="projects-main pb-[2rem]">
         <div className="basic-projects">
-          <Fade bottom duration={2000} distance="40px">
+          <div className="fade-in">
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
                 <ProjectsImg theme={theme} />
@@ -33,7 +32,7 @@ class Projects extends Component {
                 </p>
               </div>
             </div>
-          </Fade>
+          </div>
         </div>
         <div className="repo-cards-div-main">
           <CardDeck>
