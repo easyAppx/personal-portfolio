@@ -51,7 +51,7 @@ const Header = () => {
   }, []);
   
   return (
-    <div className="fade-in">
+    <div className="fade">
       <SeoHeader />
       <header 
         className={`main-header z-50 top-0 transition-all duration-1000 ease-in-out ${
