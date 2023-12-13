@@ -3,6 +3,7 @@ import './Main.css'
 import { darkTheme } from "theme"
 import Button from '../button/Button'
 import BannerImg from './BannerImg'
+import { Link } from "react-router-dom";
 import { greeting, competitiveSites } from 'assets/portfolio'
 import CompetitiveSites from 'components/competitiveSites/CompetitiveSites'
 import Typewriter from "typewriter-effect";
@@ -65,10 +66,11 @@ const Main = () => {
                 <CompetitiveSites logos={competitiveSites.competitiveSites} />
 
                 <div className="button-greeting-div">
-                  <Button 
-                    text="Contact me" 
-                    href="/contact_me" 
-                  />
+                 
+                  <Link to="/contact_me">
+                    <Button text="Contact me"/>
+                  </Link>
+             
                   <Button
                     text="See my resume"
                     newTab={true}
