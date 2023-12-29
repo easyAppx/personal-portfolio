@@ -160,15 +160,22 @@ const skills = {
           },
         },
         {
+          skillName: "Angular",
+          fontAwesomeClassname: "simple-icons:angular",
+          style: {
+            color: "#DD0031",
+          },
+        },
+        {
           skillName: "Vue.js",
-          fontAwesomeClassname: "simple-icons:vuejs",
+          fontAwesomeClassname: "simple-icons:vuedotjs",
           style: {
             color: "#41B883",
           },
         },
         {
           skillName: "Node.js",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "simple-icons:nodedotjs",
           style: {
             color: "#68A063",
           },
