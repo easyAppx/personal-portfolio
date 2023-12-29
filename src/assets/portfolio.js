@@ -235,6 +235,7 @@ const projectcards = {
       code: "https://github.com/easyAppx/Nacoss-Flex-Start",
       linkcolor: "white",
     },
+
     {
       title: "Sai Kai VMS USAF",
       description:
@@ -261,11 +262,39 @@ const projectcards = {
       code: "",
       linkcolor: "white",
     },
+    
+    {
+      title: "Weather Web App",
+      description:
+      `simple and intuitive weather app; with open weather api integration, accurate 
+        weather forecasts, and a clean interface, ensuring you're prepared for whatever the elements bring.`,
+      tags: [
+        {
+          "lang": "Angular",
+          "color": "#DD0031"
+        },
+        {
+          "lang": "TypeScript",
+          "color": "#007ACC"
+        },
+        {
+          lang: "Tailwindcss",
+          color: "#ff4b4b",
+        },
+        {
+          lang: "CSS3",
+          color: "#051c61",
+        },
+      ],
+      link: "https://simple-weather-ktjuxmpzs-easyappx.vercel.app/",
+      code: "https://github.com/easyAppx/simple_weather_app",
+      linkcolor: "white",
+    },
 
     {
       title: "Personal Portfolio",
       description:
-        "",
+        "Personal Portfolio Website",
       tags: [
         {
           lang: "React",
