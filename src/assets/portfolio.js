@@ -293,7 +293,7 @@ const projectcards = {
           color: "#051c61",
         },
       ],
-      link: "simple-weather-app-o3py-7omcfkz3y-easyappx.vercel.app",
+      link: "simple-weather-ktjuxmpzs-easyappx.vercel.app",
       code: "https://github.com/easyAppx/simple_weather_app",
       linkcolor: "white",
     },
