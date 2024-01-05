@@ -277,12 +277,12 @@ const projectcards = {
         weather forecasts, and a clean interface, ensuring you're prepared for whatever the elements bring.`,
       tags: [
         {
-          "lang": "Angular",
-          "color": "#DD0031"
+          lang: "Angular",
+          color: "#DD0031"
         },
         {
-          "lang": "TypeScript",
-          "color": "#007ACC"
+          lang: "TypeScript",
+          color: "#007ACC"
         },
         {
           lang: "Tailwindcss",
@@ -293,10 +293,68 @@ const projectcards = {
           color: "#051c61",
         },
       ],
-      link: "https://simple-weather-app-git-master-easyappx.vercel.app/",
+      link: "https://simple-weather-app-omega-nine.vercel.app/",
       code: "https://github.com/easyAppx/simple_weather_app",
       linkcolor: "white",
     },
+
+    // {
+    //   title: "miniBlog",
+    //   description:
+    //   `Explore the meteorological realm with our React-powered miniBlog. 
+    //     Our app seamlessly integrates API through JSON, enabling you to effortlessly add, remove, or edit blogs. 
+    //     Stay engaged and shape your narrative with ease.`,
+    //   tags: [
+    //     {
+    //       lang: "React",
+    //       color: "#004782",
+    //     },
+    //     {
+    //       lang: "JavaScript",
+    //       color: "#303030",
+    //     },
+    //     {
+    //       lang: "Tailwindcss",
+    //       color: "#ff4b4b",
+    //     },
+    //     {
+    //       lang: "CSS3",
+    //       color: "#051c61",
+    //     },
+    //   ],
+    //   link: "https://mini-blog-gules.vercel.app/",
+    //   code: "https://github.com/easyAppx/miniBlog",
+    //   linkcolor: "white",
+    // },
+
+    // {
+    //   title: "Task Tracker",
+    //   description:
+    //     `A Vue-powered Taste Tracker – the app where one can effortlessly record task. 
+    //     Experience intuitive tracking and exploration in a minimalistic interface. 
+    //     Vue brings simplicity to savoring every taste.`,
+    //   tags: [
+    //     {
+    //       lang: "Vue",
+    //       color: "#41b883"
+    //     },
+    //     {
+    //       lang: "JavaScript",
+    //       color: "#303030",
+    //     },
+    //     {
+    //       lang: "Tailwindcss",
+    //       color: "#ff4b4b",
+    //     },
+    //     {
+    //       lang: "CSS3",
+    //       color: "#051c61",
+    //     },
+    //   ],
+    //   link: "https://task-tracker-ten-rho.vercel.app/",
+    //   code: "https://github.com/easyAppx/taskTrackerVue",
+    //   linkcolor: "white",
+    // },
 
     {
       title: "Personal Portfolio",

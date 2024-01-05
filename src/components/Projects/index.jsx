@@ -107,7 +107,7 @@ class Projects extends Component {
         <div className="repo-cards-div-main">
           <Row className="flex flex-wrap w-full justify-center items-center border-1px rounded-lg shadow-xl">
             {projectcards.list.map((proj, index) => (
-              <Col key={index} className="h-auto m-10 lg:w-4/12 sm-fit">
+              <Col key={index} className="h-auto m-8 lg:w-4/12 sm-fit">
                 <Link to={proj.link} target="_blank" rel="noopener noreferrer">
                   <Card className="border-1px rounded-lg shadow-lg shadow-[#0e0e0e] bg-[#005C99] bg-opacity-20 p-10 
                       hover:bg-opacity-50 transition-all duration-1000 ease-in-out">
