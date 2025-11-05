@@ -397,11 +397,11 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Lale Guest Inn New Jerusalem Damaturu, 620101 Yobe State",
+    subtitle: "Waterloo, Ontario, Canada",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+234 8131907599",
+    subtitle: "+14168296706",
   },
 };
 
